@@ -333,5 +333,6 @@ erDiagram
 ```
 
 `itens_venda` guarda o nome e o preço **do momento da venda**. Assim o relatório continua correto mesmo se o produto mudar de preço ou for excluído.
-#   S i s t e m a - d e - V e n d a s  
+#   S i s t e m a - d e - V e n d a s 
+ 
  
