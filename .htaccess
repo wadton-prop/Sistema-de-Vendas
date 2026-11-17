@@ -1,0 +1,6 @@
+# Protege arquivos sensíveis quando a hospedagem aponta para a raiz do projeto.
+Options -Indexes
+
+<FilesMatch "^\.(env|git)|\.(sql|sqlite|log|md)$">
+    Require all denied
+</FilesMatch>

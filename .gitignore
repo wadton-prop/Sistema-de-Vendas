@@ -1,0 +1,16 @@
+# Credenciais reais NUNCA vão para o GitHub
+.env
+
+# Zips originais do professor (contêm senhas de banco)
+PDV/
+
+# Banco SQLite local e logs
+storage/*.sqlite
+storage/*.log
+error_log
+
+# Uploads feitos em produção (mantém só as imagens de exemplo)
+public/imagens/upload_*
+
+.vscode/
+.idea/
